@@ -1,0 +1,33 @@
+{
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/jbkingsley/InterfaceWorker.git"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/jbkingsley/DBWorker.git"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/jbkingsley/unserializeObject.git"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/jbkingsley/CoapProtocol.git"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/jbkingsley/InstrumentProtocols.git"
+        }
+    ],
+    "require": {
+        "workerman/gateway-worker": "^3.0",
+        "kings/interface-worker":"dev-master",
+        "kings/db-worker":"dev-master",
+        "kings/unserialize-object":"dev-master",
+        "kings/instrument-protocols":"dev-master",
+        "kings/coap-protocol":"dev-master",
+        "workerman/channel": "^1.0"
+    }
+}

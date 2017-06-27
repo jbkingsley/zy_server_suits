@@ -1,0 +1,249 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "96d3bf38a4b3fea1f02f62ea139544cd",
+    "packages": [
+        {
+            "name": "kings/coap-protocol",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbkingsley/CoapProtocol.git",
+                "reference": "c90eb73469e00ebf5855988258d0f6915850bb1a"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CoapProtocol\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.limx.cn",
+            "keywords": [
+                "distributed"
+            ],
+            "time": "2017-06-14 09:14:33"
+        },
+        {
+            "name": "kings/db-worker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbkingsley/DBWorker.git",
+                "reference": "a335f7d0df9b448a09d6a9c3a6f3c14737d1c602"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DBWorker\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.limx.cn",
+            "keywords": [
+                "distributed"
+            ],
+            "time": "2017-06-01 00:36:46"
+        },
+        {
+            "name": "kings/instrument-protocols",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbkingsley/InstrumentProtocols.git",
+                "reference": "b023fb5323e704f7b2d173955eaaf9c0924e85a5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "InstrumentProtocols\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.limx.cn",
+            "keywords": [
+                "distributed"
+            ],
+            "time": "2017-06-14 09:15:20"
+        },
+        {
+            "name": "kings/interface-worker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbkingsley/InterfaceWorker.git",
+                "reference": "71be8896bf6913c64cf650672cebdc5e65ef8f92"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "InterfaceWorker\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.limx.cn",
+            "keywords": [
+                "distributed"
+            ],
+            "time": "2017-06-14 09:21:30"
+        },
+        {
+            "name": "kings/unserialize-object",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbkingsley/unserializeObject.git",
+                "reference": "e5920abb07b29680c038d4eab82152ee1d7f1d7c"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SlightPHP\\": "./"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.limx.cn",
+            "keywords": [
+                "distributed"
+            ],
+            "time": "2017-06-08 11:16:40"
+        },
+        {
+            "name": "workerman/channel",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/Channel.git",
+                "reference": "1425baf00f6342bfee89b726326225a8b6a8ea80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/walkor/Channel/1425baf00f6342bfee89b726326225a8b6a8ea80.zip",
+                "reference": "1425baf00f6342bfee89b726326225a8b6a8ea80",
+                "shasum": ""
+            },
+            "require": {
+                "workerman/workerman": ">=3.3.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Channel\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.workerman.net",
+            "time": "2016-04-07T07:26:43+00:00"
+        },
+        {
+            "name": "workerman/gateway-worker",
+            "version": "v3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/GatewayWorker.git",
+                "reference": "55b734bb639538e74a45c92baa78d824ed224cdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/walkor/GatewayWorker/55b734bb639538e74a45c92baa78d824ed224cdb.zip",
+                "reference": "55b734bb639538e74a45c92baa78d824ed224cdb",
+                "shasum": ""
+            },
+            "require": {
+                "workerman/workerman": ">=3.1.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GatewayWorker\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "communication",
+                "distributed"
+            ],
+            "time": "2017-06-04T13:19:11+00:00"
+        },
+        {
+            "name": "workerman/workerman",
+            "version": "v3.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/Workerman.git",
+                "reference": "a10f58e546af755f3546a309afea7ac71f879aaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/walkor/Workerman/a10f58e546af755f3546a309afea7ac71f879aaf.zip",
+                "reference": "a10f58e546af755f3546a309afea7ac71f879aaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "ext-event": "For better performance."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2017-05-04T15:08:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "kings/interface-worker": 20,
+        "kings/db-worker": 20,
+        "kings/unserialize-object": 20,
+        "kings/instrument-protocols": 20,
+        "kings/coap-protocol": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
